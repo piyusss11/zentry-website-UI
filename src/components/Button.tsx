@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import React from 'react'
+
 import { ButtonProps } from '../types/types'
 
 const Button = ({ id, title, rightIcon, leftIcon, containerClass }: ButtonProps) => {
