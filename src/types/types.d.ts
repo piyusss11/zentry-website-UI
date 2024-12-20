@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export interface ButtonProps {
-  id: string;
+  id?: string;
   title: string;
   rightIcon?: ReactNode;
   leftIcon?: ReactNode;
@@ -20,4 +20,9 @@ export interface BentoCardProps{
   title: ReactNode;
   description?: string;
   isComingSoon?: boolean
+}
+
+export interface ImageClipBoxProps{
+  src: string,
+  clipClass: string
 }
